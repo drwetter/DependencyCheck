@@ -125,11 +125,11 @@ Copyright (c) 2012 - Jeremy Long
         <github.global.server>github</github.global.server>
         
         <apache.lucene.version>8.8.2</apache.lucene.version>
-        <apache.ant.version>1.10.9</apache.ant.version>
+        <apache.ant.version>1.10.11</apache.ant.version>
         <slf4j.version>1.7.30</slf4j.version>
-        <logback.version>1.2.3</logback.version>
+        <logback.version>1.2.13</logback.version>
         <!-- Note that Maven will use classes from the distro, ignoring declared dependencies for Maven core... -->
-        <maven.api.version>3.1.0</maven.api.version>
+        <maven.api.version>3.8.1</maven.api.version>
         <reporting.checkstyle-plugin.version>3.1.2</reporting.checkstyle-plugin.version>
         <doxia-module-markdown.version>1.9.1</doxia-module-markdown.version>
         <maven-antrun-plugin.version>3.0.0</maven-antrun-plugin.version>
@@ -146,20 +146,20 @@ Copyright (c) 2012 - Jeremy Long
 
         <jetbrains.annotations.version>20.1.0</jetbrains.annotations.version>
 
-        <com.h2database.version>1.4.199</com.h2database.version>
+        <com.h2database.version>2.2.220</com.h2database.version>
         <commons-cli.version>1.4</commons-cli.version>
-        <commons-io.version>2.8.0</commons-io.version>
+        <commons-io.version>2.16.1</commons-io.version>
         <commons-lang3.version>3.12.0</commons-lang3.version>
-        <commons-text.version>1.9</commons-text.version>
+        <commons-text.version>1.10.0</commons-text.version>
         <commons-jcs-core.version>2.2.1</commons-jcs-core.version>
         <aho-corasick-double-array-trie.version>1.2.2</aho-corasick-double-array-trie.version>
         <junit.version>4.13.2</junit.version>
         <hamcrest-core.version>2.2</hamcrest-core.version>
-        <jackson.version>2.12.3</jackson.version>
+        <jackson.version>2.12.7.1</jackson.version>
         <jmockit.version>1.49</jmockit.version>
         <mockito-core.version>3.9.0</mockito-core.version>
-        <jsoup.version>1.13.1</jsoup.version>
-        <commons-compress.version>1.20</commons-compress.version>
+        <jsoup.version>1.15.3</jsoup.version>
+        <commons-compress.version>1.26.0</commons-compress.version>
         <org.apache.maven.shared.file-management.version>3.0.0</org.apache.maven.shared.file-management.version>
         <maven-plugin-testing-harness.version>3.3.0</maven-plugin-testing-harness.version>
         <maven-plugin-annotations.version>3.6.0</maven-plugin-annotations.version>
@@ -1159,7 +1159,7 @@ Copyright (c) 2012 - Jeremy Long
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
-                <version>30.1.1-jre</version>
+                <version>32.0.0-jre</version>
             </dependency>
             <dependency>
                 <groupId>com.hankcs</groupId>
